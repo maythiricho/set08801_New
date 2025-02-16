@@ -1,0 +1,59 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+main {
+    flex: 3;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    background: #ddd;
+    padding: 20px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
