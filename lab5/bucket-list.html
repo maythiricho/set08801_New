@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Bucket List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>My Travel Bucket List</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="bucket-list.html">Bucket List</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>My Wishlist</h2>
+        <ul id="bucket-list">
+            <li>Paris <button onclick="removeItem(this)">Remove</button></li>
+            <li>Tokyo <button onclick="removeItem(this)">Remove</button></li>
+            <li>New York <button onclick="removeItem(this)">Remove</button></li>
+        </ul>
+
+        <input type="text" id="new-destination" placeholder="Add a new destination">
+        <button onclick="addDestination()">Add</button>
+    </main>
+
+    <footer>
+        <p>© 2024 Travel Bucket List</p>
+    </footer>
+</body>
+</html>
