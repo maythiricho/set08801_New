@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interacting with the Window</title>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        var out = document.getElementById("output");
+        for (i=1; i<200; i++)
+    {
+        out.innerHTML += i+" ";
+    }
+    window.scrollBy(0,100);
+    </script>
+</body>
+</html>
